@@ -35,10 +35,11 @@
 
 <body>	
 	<div class="g-signin2" data-onsuccess="onSignIn"></div> 
-	<a href="#" onclick="signOut();">Sign out</a>
+	<a href="#" onclick="signOutFromGoogle();">Sign out From Google</a>
 	<div id="google-status"></div>
 		
 	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+	<a href="#" onclick="signOutFromFacebook();">Sign out From Facebook</a>
 	<div id="facebook-status"></div>
 	
 	<footer>

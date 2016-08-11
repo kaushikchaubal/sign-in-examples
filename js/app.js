@@ -10,7 +10,7 @@ function onSignIn(googleUser) {
 	document.getElementById('google-status').innerHTML = "Welcome " + profile.getName();
 }
 
-function signOut() {
+function signOutFromGoogle() {
 	var auth2 = gapi.auth2.getAuthInstance();
 	auth2.signOut().then(function () {
 		console.log('User signed out.');
@@ -58,4 +58,11 @@ function signIn() {
 		console.log('Successful login for: ' + response.name);
 		document.getElementById('facebook-status').innerHTML = "Welcome " + response.name;
 	});
+}
+
+function signOutFromFacebook () {
+	FB.logout(function() { 
+		console.log('User signed out.');
+		document.getElementById('facebook-status').innerHTML = 'Logged out successfully'; 
+	}); 
 }
