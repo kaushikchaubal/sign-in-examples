@@ -38,7 +38,8 @@
 	<a href="#" onclick="signOut();">Sign out</a>
 	<div id="google-status"></div>
 		
-	</div>
+	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+	<div id="facebook-status"></div>
 	
 	<footer>
 		<p class="likeUs">Like what you see? Click star on <a href="https://github.com/kaushikchaubal/speaking-clock/"  target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></p>
@@ -47,6 +48,7 @@
 	<!-- Script -->
 	<script src="js/app.js" type="text/javascript" charset="utf-8" async defer></script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://connect.facebook.net/en_US/sdk.js" async defer></script>
 </body>
 
 </html>
