@@ -1,4 +1,4 @@
-# speaking-clock
+# sign-in-examples
 A simple wep-page which shows how to log use different sign-in systems.
 
 ##Implemented so far:
