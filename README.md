@@ -1,8 +1,8 @@
 # speaking-clock
-A simple wep-page which shows &amp; speaks the time - perfect when you are really busy to even look at the clock!
+A simple wep-page which shows how to log use different sign-in systems.
 
-## Screenshot: 
-![](http://g.recordit.co/aozxFsK6O5.gif)
+##Implemented so far:
+1. Google
 
 ## Demo?
-https://speaking-clock.herokuapp.com
+https://sign-in-examples.herokuapp.com
